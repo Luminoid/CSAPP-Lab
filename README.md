@@ -1,7 +1,7 @@
 # CSAPP-Lab
 The lab of Computer Systems: A Programmer's Perspective
 
-The original lab files are downloaded from the [official site](http://csapp.cs.cmu.edu)
+The original lab files are downloaded from the [official site](http://csapp.cs.cmu.edu).
 
 1. Data Lab
 2. Bomb Lab
