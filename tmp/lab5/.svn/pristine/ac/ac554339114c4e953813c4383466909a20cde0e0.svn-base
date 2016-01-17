@@ -1,4 +1,0 @@
-# test for error handling of invalid register
-	pushl %ezx
-	halt
-# end

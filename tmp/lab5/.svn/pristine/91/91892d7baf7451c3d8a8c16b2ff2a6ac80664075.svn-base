@@ -1,4 +1,0 @@
-# test andl
-	andl %esi, %edi
-	halt
-# end

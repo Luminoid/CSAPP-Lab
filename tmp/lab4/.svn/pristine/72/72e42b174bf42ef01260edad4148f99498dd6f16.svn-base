@@ -1,4 +1,0 @@
-# test cmove
-	cmove %esi, %edi
-	halt
-# end

@@ -1,4 +1,0 @@
-# test for error handling of invalid directive
-.long xyz
-	halt
-# end

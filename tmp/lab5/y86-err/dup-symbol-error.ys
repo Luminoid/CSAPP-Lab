@@ -1,4 +1,0 @@
-# test for error handling of duplicate symbol
-Begin:
-	halt
-Begin:
