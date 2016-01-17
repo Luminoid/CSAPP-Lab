@@ -1,0 +1,45 @@
+# 李纯厚 14302010006
+
+# Execution begins at address 0
+    .pos 0
+init:
+    irmovq Stack, %rsp # Set up stack pointer
+    call Main # Execute main program
+    halt # Terminate program
+
+# Sample linked list
+.align 8
+ele1:
+    .quad 0x00a
+    .quad ele2
+ele2:
+    .quad 0x0b0
+    .quad ele3
+ele3:
+    .quad 0xc00
+    .quad 0
+
+Main:
+    irmovq ele1, %rdi # The first parameter
+    call Sum
+    ret
+
+Sum:
+    xorq %rax, %rax # val = 0 (return value)
+    andq %rdi, %rdi # Set condition codes
+    je End # 0
+
+Loop:
+    mrmovq (%rdi), %rsi # ls->val
+    addq %rsi, %rax # val+=ls->val
+    mrmovq 0x8(%rdi), %rdi # ls = ls->next
+    andq %rdi, %rdi
+    jne Loop # not 0
+
+End:
+    ret
+
+# The stack starts here and grows to lower address
+   .pos 0x100
+Stack:
+
