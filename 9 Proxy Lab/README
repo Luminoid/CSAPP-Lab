@@ -4,7 +4,7 @@ CS:APP Proxy Lab
 
 - proxylab.pdf           Assignment introduction
 - proxylab-handout.tar   Original code
-- Makefile	         For building and handing in proxy
+- Makefile               For building and handing in proxy
 - README                 This file
 - sequential             Solution to Part I
 - concurrent             Solution to Part II
