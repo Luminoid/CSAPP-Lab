@@ -1,0 +1,13 @@
+# CS:APP Proxy Lab
+
+proxylab.pdf          - Assignment introduction
+proxylab-handout.tar  - Original code
+Makefile	          - For building and handing in proxy
+README		          - This file
+sequential            - Solution to Part I
+concurrent            - Solution to Part II
+
+## Proxy source files
+proxy.{c,h}	          - Primary proxy code
+csapp.{c,h}	          - Wrapper and helper functions from the CS:APP text
+
